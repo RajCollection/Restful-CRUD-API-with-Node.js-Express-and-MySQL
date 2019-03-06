@@ -11,12 +11,12 @@ mysql> source path_of_schema.sql_file/schema.sql
 
 APIs
 
- - Get All: http://localhost:6001/products                                                    // GET 
+ - Get All (GET): http://localhost:6001/products                                                   
  
- - Get one: http://localhost:6001/products/1                                                  // GET
+ - Get one (GET): http://localhost:6001/products/1                                                 
  
- - Add product : http://localhost:6001/products/add           
-        {"prd_name":"product 3", "prd_price":"100.50"}                                        // POST
+ - Add product (POST): http://localhost:6001/products/add           
+         {"prd_name":"product 3", "prd_price":"100.50"}                                        
         
- - Delete Product: http://localhost:6001/products/delete      
-         {"productId": "3"}                                                                   // POST
+ - Delete Product (POST): http://localhost:6001/products/delete      
+         {"productId": "3"}                                                                   
